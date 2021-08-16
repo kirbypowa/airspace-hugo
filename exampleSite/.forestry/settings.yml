@@ -13,22 +13,6 @@ sections:
   path: exampleSite/content/french/_index.md
   label: Homepage (fr)
 - type: heading
-  label: Blog Post
-- type: directory
-  path: exampleSite/content/english/blog
-  label: Post (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: heading
   label: Author
 - type: directory
   path: exampleSite/content/english/author
@@ -88,13 +72,6 @@ sections:
   match: "**/*"
   templates:
   - new-page
-- type: heading
-  label: Translations
-- type: directory
-  path: exampleSite/i18n
-  label: i18n
-  create: documents
-  match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
